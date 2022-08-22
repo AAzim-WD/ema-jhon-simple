@@ -1,0 +1,31 @@
+.header img {
+    /* width: 288px; */
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
+.header nav {
+    background-color: #000;  
+}
+.header nav ul{
+    height: 40px;
+    overflow: hidden; 
+}
+.header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+    line-height: 40px;
+    transition: 0.2s;
+}
+.header nav ul li a{
+    text-decoration: none;
+    padding: 8px;
+    color: #fff;
+    font-size: 18px;
+}
+.header nav a:hover {
+    background-color: lightgray;
+    color: black;
+}
+

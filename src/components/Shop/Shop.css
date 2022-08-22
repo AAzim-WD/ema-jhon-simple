@@ -1,0 +1,26 @@
+.shop-container {
+    display: flex;
+}
+.products-container {
+    width: 70%;
+    margin-left: 10px;
+    margin-right: 5px;
+    /* padding: 5px; */
+    border-right: 1px solid lightgray;
+    overflow: auto;
+
+}
+@media screen and (max-width: 600px) {
+    .shop-container {
+        /* flex-direction: column; */
+    }
+    .products-container {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 800px) {
+    .products-container {
+        margin-left: 200px;
+    }
+}

@@ -1,0 +1,10 @@
+.cart-content {
+    padding:  0 5px;
+    position: sticky;
+    top: 0;
+}
+.cart-content h2, h3, h4, p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
